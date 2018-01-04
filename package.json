@@ -1,0 +1,23 @@
+{
+  "name": "playcanvas-typings",
+  "version": "1.0.0",
+  "description": "TypeScript declaration files for PlayCanvas game engine",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Neoflash1979/playcanvas-typings.git"
+  },
+  "keywords": [
+    "TypeScript",
+    "PlayCanvas"
+  ],
+  "author": "Philippe Vaillancourt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Neoflash1979/playcanvas-typings/issues"
+  },
+  "homepage": "https://github.com/Neoflash1979/playcanvas-typings#readme"
+}
