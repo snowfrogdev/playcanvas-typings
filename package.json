@@ -1,6 +1,6 @@
 {
   "name": "playcanvas-typings",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "TypeScript declaration files for PlayCanvas game engine",
   "main": "index.js",
   "scripts": {
