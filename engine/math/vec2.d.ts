@@ -8,7 +8,8 @@ declare namespace pc {
     * @param {Number} [y] The y value
     */
     class Vec2 {
-        constructor(x: number, y: number)
+        constructor(x: number, y: number);
+        constructor();
 
         /**
          * @function
