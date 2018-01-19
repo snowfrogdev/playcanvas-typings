@@ -86,7 +86,7 @@ declare namespace pc {
          *   clearColor: new pc.Color(1,0,0),
          * });
          */
-        addComponent(type: pc.ComponentTypes, data: any): pc.Component;
+        addComponent(type: pc.ComponentTypes, data?: any): pc.Component;
 
         /**
          * @function

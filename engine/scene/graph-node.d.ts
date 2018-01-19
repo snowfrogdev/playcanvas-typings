@@ -64,7 +64,7 @@ declare namespace pc {
          * @type pc.GraphNode[]
          * @description A read-only property to get the children of this graph node.
          */
-        readonly children: pc.GraphNode;
+        readonly children: pc.GraphNode[];
 
         /**
          * @function

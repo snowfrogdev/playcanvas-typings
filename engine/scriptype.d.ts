@@ -13,7 +13,7 @@ interface ScriptType {
      * @memberof ScriptType
      */
     initialize?(): void;
-    
+
     /**
      * postInitialize will run after all initialize methods are executed in the  
      * same tick or enabling chain of actions.

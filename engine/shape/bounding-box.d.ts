@@ -21,6 +21,10 @@ declare namespace pc {
          */
         add(other: pc.BoundingBox): void;
 
+        copy(src: pc.BoundingBox): void;
+
+        clone(): pc.BoundingBox;
+
         /**
          * @function
          * @name pc.BoundingBox#intersects

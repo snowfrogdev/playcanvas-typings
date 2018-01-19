@@ -1,4 +1,4 @@
-type BrowserMouseEvent = typeof MouseEvent;
+type BrowserMouseEvent = MouseEvent;
 
 declare namespace pc {
     /**
