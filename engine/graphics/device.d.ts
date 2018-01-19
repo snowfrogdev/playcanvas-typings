@@ -45,6 +45,8 @@ declare namespace pc {
          */
         readonly maxVolumeSize: number;
 
+        maxPixelRatio: number;
+
         /**
          * @function
          * @name pc.GraphicsDevice#setViewport
