@@ -9,7 +9,12 @@ declare namespace pc {
     * @property {String} prefix A URL prefix that will be added to all asset loading requests.
     */
     class AssetRegistry {
-        constructor(loader: pc.ResourceLoader)
+        /**
+         * @description A URL prefix that will be added to all asset loading requests.
+         */
+        prefix: string;
+
+        constructor(loader: pc.ResourceLoader);
 
         /**
         * @function
