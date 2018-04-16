@@ -1,4 +1,4 @@
-import { platform } from "os";
+//import { platform } from "os";
 
 declare namespace pc {
 

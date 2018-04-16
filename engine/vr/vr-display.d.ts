@@ -1,5 +1,5 @@
-type NativeVRDisplay = typeof VRDisplay;
-type NativeVRDisplayCapabilities = typeof VRDisplayCapabilities;
+//type NativeVRDisplay = typeof VRDisplay;
+//type NativeVRDisplayCapabilities = typeof VRDisplayCapabilities;
 
 declare namespace pc {
 
@@ -19,12 +19,12 @@ declare namespace pc {
      * @returns {pc.VrDisplay} A new pc.VrDisplay.
      */
     class VrDisplay {
-        constructor(app: pc.Application, display: NativeVRDisplay)
+        constructor(app: pc.Application, display: VRDisplay)
 
         id: number;
-        display: NativeVRDisplay;
+        display: VRDisplay;
         presenting: boolean;
-        capabilities: NativeVRDisplayCapabilities;
+        capabilities: VRDisplayCapabilities;
 
         /**
         * @function
